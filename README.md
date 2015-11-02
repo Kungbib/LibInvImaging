@@ -11,7 +11,7 @@ shelves.
 
 Example:
 
-![Data Matrix code example](https://raw.githubusercontent.com/Kungbib/LibInvImaging/master/dmtxexamples/H2O-10-1.png)
+![Data Matrix code example](https://github.com/Kungbib/LibInvImaging/raw/master/dmtxexamples/H2O-10-1.png)
 
 ´´´parse_folder.py´´´ looks at images from a digital camera and assumes
 a DataMatrix code is somewhere in the lower left corner of the image.
