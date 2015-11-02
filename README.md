@@ -7,11 +7,7 @@ pictures of shelves and automatically rename those pictures with the
 correct shelf identifier. This enables image comparison over time.
 
  * _make_dtmx.py_ generates DataMatrix image files for a series of
-shelves.
-
-Example:
-
-![Data Matrix code example](https://github.com/Kungbib/LibInvImaging/raw/master/dmtxexamples/H2O-10-1.png)
+shelves. Example: ![Data Matrix code example](https://github.com/Kungbib/LibInvImaging/raw/master/dmtxexamples/H2O-10-1.png)
 
  * _parse_folder.py_ looks at images from a digital camera and assumes
 a DataMatrix code is somewhere in the lower left corner of the image.
