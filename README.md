@@ -6,20 +6,20 @@ codes. The idea is to support a faster inventory process by taking
 pictures of shelves and automatically rename those pictures with the
 correct shelf identifier. This enables image comparison over time.
 
-The ´´´make_dtmx.py´´´ generates DataMatrix image files for a series of
+ * _make_dtmx.py_ generates DataMatrix image files for a series of
 shelves.
 
 Example:
 
 ![Data Matrix code example](https://github.com/Kungbib/LibInvImaging/raw/master/dmtxexamples/H2O-10-1.png)
 
-´´´parse_folder.py´´´ looks at images from a digital camera and assumes
+ * _parse_folder.py_ looks at images from a digital camera and assumes
 a DataMatrix code is somewhere in the lower left corner of the image.
 Images are renamed to the shelf identifier code and moved to a specified
 target folder.
 
 
-## INstall requirements
+## Install requirements
 
 ```
 pip install -r requirements.txt
