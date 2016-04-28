@@ -10,7 +10,7 @@ correct shelf identifier. This enables image comparison over time.
 
 Example:
 
-![Data Matrix code example](https://raw.githubusercontent.com/Kungbib/LibInvImaging/master/dmtxexamples/H2O-10-1.png)
+![Data Matrix code example](/dmtxexamples/H2O-10-1.png?raw=true)
 
 ´´´parse_folder.py´´´ looks at jpeg images in the input folder and assumes
 a DataMatrix code is somewhere in the lower right corner of the image.
