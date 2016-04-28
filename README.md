@@ -6,13 +6,9 @@ codes. The idea is to support a faster inventory process by taking
 pictures of shelves and automatically rename those pictures with the
 correct shelf identifier. This enables image comparison over time.
 
- * _make_dtmx.py_ generates DataMatrix image files for a series of shelves.
+ * _make_dtmx.py_ generates DataMatrix image files for a series of shelves. Example: ![Data Matrix code example](/dmtxexamples/H2O-10-1.png?raw=true)
 
-Example:
-
-![Data Matrix code example](/dmtxexamples/H2O-10-1.png?raw=true)
-
-´´´parse_folder.py´´´ looks at jpeg images in the input folder and assumes
+ * _parse_folder.py_ looks at jpeg images in the input folder and assumes
 a DataMatrix code is somewhere in the lower right corner of the image.
 Images are renamed to the shelf identifier code and moved to a specified
 target folder.
