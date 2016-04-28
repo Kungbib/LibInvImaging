@@ -17,7 +17,7 @@ a DataMatrix code is somewhere in the lower right corner of the image.
 Images are renamed to the shelf identifier code and moved to a specified
 target folder.
 
-![Data Matrix image corner](https://raw.githubusercontent.com/Kungbib/LibInvImaging/master/docs/example.jpg)
+![Data Matrix image corner](/docs/example.jpg?raw=true)
 
 
 ## Install requirements
