@@ -4,7 +4,7 @@ Library inventory imaging - pilot project
 This repository contains code to generate and read DataMatrix shelf
 codes. The idea is to support a faster inventory process by taking
 pictures of shelves and automatically rename those pictures with the
-correct shelf identifier. This enables image comparison over time.
+correct shelf identifier. Images are to be collected in a database to enable comparison of shelf content over time.
 
  * _make_dtmx.py_ generates DataMatrix image files for a series of shelves. Example: ![Data Matrix code example](/dmtxexamples/H2O-10-1.png?raw=true)
 
